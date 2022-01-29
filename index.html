@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>convertor</title>
+    <link rel="stylesheet" href="./assest/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <h1>The MD convetor</h1>
+
+    <div class="opentabs">
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="tab-1">temperature convetor</li>
+            <li class="tab-link" data-tab="tab-2">Property area convetor</li>
+            <li class="tab-link" data-tab="tab-3">distance convetor</li>
+        </ul>
+
+        <div id="tab-1" class="tab-content current">
+            <div id="temp">
+                <h1>temperature convetor</h1>
+                <div id="container">
+                    <div class="input-div">
+                        <label >Celsius</label> <br>
+                        <input type="number" value="0" id="cel" class="inp">
+                    </div>
+                    <div class="input-div">
+                        <label >fahrenheit</label> <br>
+                        <input type="number" value="0" id="fah" class="inp">
+                    </div>
+                    <div class="input-div">
+                        <label >Kelvin</label> <br>
+                        <input type="number" value="0" id="kal" class="inp">
+                    </div>
+                </div>
+              </div>
+        </div>
+        <div id="tab-2" class="tab-content">
+            <div id="area">
+                <h1>Property area convetor</h1>
+            <div id="container2">
+                <div class="length">
+                <div class="input-div">
+                    <label >lenght</label> <br>
+                    <input type="number" value="0" id="length" class="inp">
+              
+                </div>
+                <div class="input-div">
+                    <label >width</label> <br>
+                    <input type="number" value="0" id="width" class="inp">
+                </div>
+                <div class="input-div inputdiv" style="width: 25%;">
+                    <label >width x lenght = feet</label> <br>
+                 
+                    <button id="result">0</button>
+                </div>
+            </div>
+                <div class="input-div">
+                    <label >feet</label> <br>
+                    <input type="number" value="0" id="feet" class="inp">
+                </div>
+                <div class="input-div">
+                    <label >gaj</label> <br>
+                    <input type="number" value="0" id="gaj" class="inp">
+                </div>
+                <div class="input-div">
+                    <label >beega</label> <br>
+                    <input type="number" value="0" id="beega" class="inp">
+                </div>
+                <div class="input-div">
+                    <label >hectare</label> <br>
+                    <input type="number" value="0" id="hectare" class="inp">
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="tab-3" class="tab-content">
+            <div id="distance">
+                <h1>distance convetor</h1>
+            <div id="container3">
+                <div class="input-div">
+                    <label >feet</label> <br>
+                    <input type="number" value="0" id="feett" class="inp">
+                </div>
+                <div class="input-div">
+                    <label >inch</label> <br>
+                    <input type="number" value="0" id="inch" class="inp">
+                </div>
+                <div class="input-div">
+                    <label >milimtr</label> <br>
+                    <input type="number" value="0" id="milimtr" class="inp">
+                </div>
+                <div class="input-div">
+                    <label >centimtr</label> <br>
+                    <input type="number" value="0" id="centimtr" class="inp">
+                </div>
+                <div class="input-div">
+                    <label >mtr</label> <br>
+                    <input type="number" value="0" id="mtr" class="inp">
+                </div>
+                <div class="input-div">
+                    <label >kilomtr</label> <br>
+                    <input type="number" value="0" id="kilomtr" class="inp">
+                </div>
+            </div>
+            </div>
+    </div>
+    </div>
+    <script src="./assest/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+body{
+    padding:  50px 100px;
+}
+h1{
+    text-align: center;
+}
+#container{
+    text-align: center;
+    background-color: #1abc9c;
+    padding: 50px;
+}
+#container2{
+    text-align: center;
+    background-color: #a15c5ce8;
+    padding: 50px;
+}
+#container3{
+    text-align: center;
+    background-color: #6c9aceec;
+    padding: 50px;
+}
+#container4{
+    text-align: center;
+    background-color: #f13030ec;
+    padding: 50px;
+}
+#container5{
+    text-align: center;
+    background-color: #b0c58fec;
+    padding: 50px;
+}
+.input-div{
+    display: inline-block;
+}
+.inp{
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 250px;
+    text-align: center;
+}
+#choose{
+    font-size: 30px;
+    font-weight: bold;
+}
+#result{
+    padding: 5px 10px;
+margin: 10px;
+font-size: 25px;
+font-weight: bold;
+width: 272px;
+text-align: center;
+}
+.font{
+    font-size: 20px;
+}
+#convetor{
+    margin: 0px 25px 0px 16px;
+padding: 0 7px;
+font-size: 22px;
+}
+label{
+    font-size: 25px;
+}
+.opentabs{
+    background: rgb(244, 236, 236);
+    margin: 0.2% 0;
+  }
+  .opentabs ul.tabs{
+    margin: auto;
+    width: 97%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.opentabs ul.tabs li{
+  display: inline-block;
+  cursor: pointer;
+  padding: 2.3% 0%;
+  width: 30%;
+  text-align: center;
+  font-size: 25px;
+font-weight: bold;
+}
+
+.opentabs ul.tabs li.current{
+  background: #c9c2c2;
+  color: #222;
+}
+
+.opentabs .tab-content{
+    display: none;
+    background: #ededed;
+    margin-top: 0.3%;
+    margin-bottom: 1%;
+  
+}
+.inputdiv{
+    width: 38% !important;
+}
+
+.opentabs .tab-content.current{
+    display: inherit;
+    /* background-color: #787878; */
+
+}
+@media only screen and (max-width: 900px){
+    body{
+        padding: 0;
+    }
+    .inputdiv{
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 600px){
+    .opentabs ul.tabs{
+        display: block;
+    }
+    .opentabs ul.tabs li{
+        display: block;
+        width: 100%;
+    }
+}
