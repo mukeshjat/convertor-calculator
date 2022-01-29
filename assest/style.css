@@ -85,8 +85,12 @@ label{
 font-weight: bold;
 }
 
+.opentabs ul.tabs li:hover{
+    background: #c9c2c2;
+    color: #222;
+  }
 .opentabs ul.tabs li.current{
-  background: #c9c2c2;
+  background: #a09d9d;
   color: #222;
 }
 
